@@ -1,0 +1,319 @@
+/**  FONTE DE TODO O SITE   */
+body{
+	font-family: Helvetica;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+
+/**  PROPRIEDADES DE TODAS AS LINHAS(GRID)  */
+.linha{
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 5px 0;
+}
+
+/**  PROPRIEDADES DE TODAS AS COLUNAS(GRID) */
+.coluna{
+	padding: 0 10px;
+	float: left;
+}
+
+/**  TAMANHOS DAS COLUNAS  */
+.coluna1{
+	width: 60px;
+}
+.coluna2{
+	width: 140px;
+}
+.coluna3{
+	width: 160px;
+}
+.coluna4{
+	width: 300px;
+}
+.coluna5{
+	width: 380px;
+}
+.coluna6{
+	width: 460px;
+}
+.coluna7{
+	width: 540px;
+}
+.coluna8{
+	width: 620px;
+}
+.coluna9{
+	width: 700px;
+}
+
+.coluna10{
+	width: 780px;
+}
+.coluna11{
+	width: 860px;
+}
+.coluna12{
+	width: 940px;
+}
+
+/**  TIRAR O UNDERLINE DE TODOS OS LINKS  */
+a:link{
+	text-decoration: none;
+}
+/**  COLOCAR O UNDERLINE QUANDO O MOUSE PASSA  */
+a:hover{
+	text-decoration: underline;
+}
+
+/**  MANTER O UNDERLINE DESSES LINKS EM ESPECIFICO  */
+a.acessecadastre{
+	text-decoration: underline;
+}
+
+/**  COR DOS LINKS ACESSE / CADASTRE */
+.acessecadastre{
+	color: white;
+	display: inline-block;
+}
+
+#branco{
+	color: white;
+	font-size: 10px;
+	padding-left: 780px;
+	display: inline;
+}
+/**  MANTER ALINHADO A PARTE VERMELHA DE CIMA  */
+
+.header{
+	background: #DC143C;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+header nav ul li a{
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+header nav ul.menu{
+	padding: 0;
+	float:left;
+	margin-top: 5px;
+	height: 10px;
+}
+
+ul.menu li{
+	display: inline;
+	margin-right: 80px;
+}
+
+ul.menu li:last-child{
+	margin-right: 0px;
+}
+
+a.botao{
+	width: 130px;
+	height: 20px;
+	background: #80ccc6;
+	padding: 5px 10px;
+	border-radius: 3px;
+	cursor: pointer;
+	display: inline-block;
+	border: none;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+	display: flex;
+	justify-content: center;
+   	align-items: center;
+}
+
+a.botao:hover{
+	background: #a2d9d4;
+}
+
+img{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #D3D3D3;
+	max-width: 100%;
+	height: 150px;
+}
+
+.pad{
+	padding: 0;
+	margin-bottom: 5px;
+}
+
+#preto{
+	background: black;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	height: 20px;
+}
+
+
+.tam{
+	text-align: center;
+}
+
+.preco{
+	text-align: center;
+	color: #DC143C;
+	font-weight: bold;
+}
+
+
+.numeros{
+	padding-left: 500px;
+	font-size: 12px;
+}
+
+#aside{
+	border-style: solid;
+	border-color: #D3D3D3;
+	border-width: 1px;
+	margin-left: 10px;
+	height: 320px;
+}
+
+#filtrepor{
+	color: #DC143C;
+	font-weight: bold;
+}
+
+.azul{
+	color: #80ccc6;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+section ul {
+	padding-left: 18px;
+	color: grey;
+	margin-top: 5px;
+}
+
+section ul li a{
+	color: grey;
+	font-size: 12px;
+}
+
+.nome{
+	color: grey;
+	font-size: 12px;
+	text-align: center;
+}
+
+#pginicial{
+	color: black;
+}
+
+#pgatual{
+	color: #DC143C;
+}
+
+#pgtam{
+	font-size: 10px;
+}
+
+#pgprincipal{
+	margin-left: 200px;
+	margin-top: 130px;
+}
+
+.especial {
+	background: #DC143C;
+	width: 100%;
+	height: 90px;
+	margin-top: 500px;
+}
+
+.normal{
+	background: #DC143C;
+	width: 100%;
+	height: 90px;
+}
+
+#linha-horizontal {
+    width: 690px;
+    border: thin solid #D3D3D3;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#nome-pag {
+	color: #DC143C;
+	font-size: 25px;
+	float:left;
+	margin-top: 0px;
+}
+
+.linhanopad{
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+
+#pgcontato{
+	margin-left: 200px;
+	margin-top: 0px;
+}
+
+
+.dados{
+	color: #80ccc6;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+section h3 a{
+	color: black;
+	font-size: 15px;
+}
+
+.campo_nome{
+	width: 250px;
+	height: 26px;
+	padding-left: 5px 
+	padding-top: 10px;
+	margin-left: 550px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-style: solid;
+	border-color: #D3D3D3;
+	border-width: 1px;
+}
+
+.botaobuscar{
+	width: 70px;
+	height: 20px;
+	background: #DC143C;
+	padding: 5px 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 87px;
+}
+
+a.botaobuscar{
+	cursor: pointer;
+	display: inline-block;
+	border: none;
+	color: white;
+	font-weight: bold;
+	font-size: 10px;
+	display: flex;
+	justify-content: center;
+   	align-items: center;
+}
+
+
+
