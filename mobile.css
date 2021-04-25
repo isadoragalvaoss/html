@@ -293,6 +293,12 @@ select{
 	margin-left: 5px;
 }
 
+.precoinline{
+	color: #DC143C;
+	font-weight: bold;
+}
+
+
 
 @media only screen and (min-width: 960px) {
 	
@@ -412,6 +418,7 @@ select{
 		display: flex;
 	}
 
+	
 	#aside{
 		margin-left: 180px;
 	}
