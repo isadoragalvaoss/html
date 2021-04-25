@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Menu mobile</title>
+
+	<link rel="stylesheet" type="text/css" href="mobileGrid.css">
+</head>
+
+<body>
+	<div class="linha" id="preto" class="mobile">
+		<div class="acessecadastre">
+			<h1 id="branco"><a href="" class="acessecadastre">Acesse sua conta</a> ou <a href=""
+					class="acessecadastre">Cadastre-se</a></h1>
+		</div>
+	</div>
+
+	<div class="linha" class="mobile">
+		<div class="coluna coluna9">
+			<input class="campo_nome" type="text">
+		</div>
+		<div class="coluna coluna3">
+			<a href="#" onclick="funcao1();" class="botaobuscar">BUSCAR</a>
+		</div>
+	</div>
+
+	<nav>
+		<a href="#menu" class="botaoMenu botaoMenu_open">MENU</a>
+
+		<ul id="menu" class="menu">
+			<li class="botaoMenu botaoMenu_close">SAIR</li>
+			<li class="menu-item">
+				<a href="index.html" class="menu-item-action">página inicial</a>
+			</li>
+			<li class="menu-item">
+				<a href="mobileCamisetas.html" class="menu-item-action">camisetas</a>
+			</li>
+			<li class="menu-item">
+				<a href="mobileCalcas.html" class="menu-item-action">calças</a>
+			</li>
+			<li class="menu-item">
+				<a href="mobileSapatos.html" class="menu-item-action">sapato</a>
+			</li>
+			<li class="menu-item">
+				<a href="mobileContato.html" class="menu-item-action">contato</a>
+			</li>
+		</ul>
+	</nav>
+
+	<div class="linha" class="mobile">
+		<div class="coluna coluna12">
+			<p id="pgtam">
+				<a href="index.html" id="pginicial">Página Inicial</a>
+				>
+				<a href="mobileCamisetasInline.html" id="pgatual">Camisetas</a>
+			</p>
+
+		</div>
+	</div>
+
+	<!-- A class desktop alinha o 'filtre por'-->
+	<div class="desktop"></div>
+	<div class="linha" class="mobile">
+		<section>
+			<div class="coluna coluna3" id="aside" class="c12">
+				<ul class="pad">
+					<p id="filtrepor">FILTRE POR</p>
+					<p class="azul">CATEGORIAS</p>
+				</ul>
+
+				<ul>
+					<li><a href="">Roupas</a></li>
+					<li><a href="">Sapatos</a></li>
+					<li><a href="">Acessórios</a></li>
+				</ul>
+
+				<ul class="pad">
+					<p class="azul">CORES</p>
+					<div class="cores">
+						<div id="cor1">coress1</div>
+						<div id="cor2">coress2</div>
+						<div id="cor3">coress3</div>
+					</div>
+					<br>
+					<p class="azul">TIPOS</p>
+				</ul>
+
+				<ul>
+					<li><a href="">Corrida</a></li>
+					<li><a href="">Caminhada</a></li>
+					<li><a href="">Casual</a></li>
+					<li><a href="">Social</a></li>
+					<br>
+				</ul>
+			</div>
+	
+	<div class="colunaD coluna9">
+	<div class="linhanopad">
+		<div class=" coluna coluna12">
+			<p id="nome-pag">Camisetas</p>
+			<div id="linha-horizontal"></div>
+
+			<div class=" colunaD coluna3">
+				<a href="mobileCamisetas.html">
+				<img src="img/gridinline.jpg">
+			</a>
+			</div>
+			<div id="ordenarporlabel" class=" colunaD coluna9">
+				<label for="country">ORDENAR POR</label>
+				<select id="country" name="country">
+					<option value="australia">Preço</option>
+					<option value="canada">Nome</option>
+					<option value="usa">Mais recente</option>
+				</select>
+			</div>
+
+			<div id="linha-horizontal" id="linhadebaixo"></div>
+		</div>
+	</div>
+
+	
+	<div class="linhaproduto" id="inline">
+		<div class=" colunaD coluna3">
+		<div class=" coluna coluna6">
+			<img src="img/shirt-1.jpg">
+			<p class="nome">CAMISA PRETA BÁSICA</p>
+			<p class="preco">R$ 59,99</p>
+			<a href="#" onclick="funcao2();" class="botao">COMPRAR</a>
+		</div>
+		</div>
+		<div class=" colunaD coluna3">
+		<div class=" coluna coluna6">
+			<img src="img/shirt-2.jpg">
+			<p class="nome">CAMISA POLO LARANJA</p>
+			<p class="preco">R$ 79,99</p>
+			<a href="#" onclick="funcao2();" class="botao">COMPRAR</a>
+		</div>
+		</div>
+		<div class="hid">
+			<div class=" colunaD coluna3" class="hid">
+				<div class=" coluna coluna6">
+					<img src="img/shirt-2.jpg">
+					<p class="nome">CAMISA POLO LARANJA</p>
+					<p class="preco">R$ 99,99</p>
+					<a href="#" onclick="funcao2();" class="botao">COMPRAR</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="linhaproduto">
+		<div class="hid">
+			<div class=" colunaD coluna3">
+				<div class=" coluna coluna6">
+					<img src="img/shirt-1.jpg">
+					<p class="nome">CAMISA PRETA BÁSICA</p>
+					<p class="preco">R$ 99,99</p>
+					<a href="#" onclick="funcao2();" class="botao">COMPRAR</a>
+				</div>
+			</div>
+		</div>
+		<div class=" colunaD coluna3">
+		<div class=" coluna coluna6">
+			<img src="img/shirt-3.jpg">
+			<p class="nome">CAMISA AMARELA BÁSICA</p>
+			<p class="preco">R$ 89,99</p>
+			<a href="#" onclick="funcao2();" class="botao">COMPRAR</a>
+		</div>
+	</div>
+		<div class=" colunaD coluna3">
+		<div class=" coluna coluna6">
+			<img src="img/shirt-4.jpg">
+			<p class="nome">CAMISA ROXO BÁSICA</p>
+			<p class="preco">R$ 49,99</p>
+			<a href="#" onclick="funcao2();" class="botao">COMPRAR</a>
+		</div>
+	</div>
+
+	</div>
+
+	<div class="linhaproduto">
+		<div class=" colunaD coluna3">
+		<div class=" coluna coluna6">
+			<img src="img/shirt-1.jpg">
+			<p class="nome">CAMISA PRETA BÁSICA</p>
+			<p class="preco">R$ 59,99</p>
+			<a href="#" onclick="funcao2();" class="botao">COMPRAR</a>
+		</div>
+	</div>
+		<div class=" colunaD coluna3">
+		<div class=" coluna coluna6">
+			<img src="img/shirt-2.jpg">
+			<p class="nome">CAMISA POLO LARANJA</p>
+			<p class="preco">R$ 79,99</p>
+			<a href="#" onclick="funcao2();" class="botao">COMPRAR</a>
+		</div>
+	</div>
+
+	</div>
+
+	<div class="linhaproduto">
+		<div class=" colunaD coluna3">
+		<div class=" coluna coluna6">
+			<img src="img/shirt-3.jpg">
+			<p class="nome">CAMISA AMARELA BÁSICA</p>
+			<p class="preco">R$ 89,99</p>
+			<a href="#" onclick="funcao2();" class="botao">COMPRAR</a>
+		</div>
+	</div>
+		<div class=" colunaD coluna3">
+		<div class=" coluna coluna6">
+			<img src="img/shirt-4.jpg">
+			<p class="nome">CAMISA ROXO BÁSICA</p>
+			<p class="preco">R$ 49,99</p>
+			<a href="#" onclick="funcao2();" class="botao">COMPRAR</a>
+		</div>
+	</div>
+
+	</div>
+
+	<div class="linhaproduto">
+		<div class=" colunaD coluna3">
+		<div class=" coluna coluna6">
+			<img src="img/shirt-1.jpg">
+			<p class="nome">CAMISA PRETA BÁSICA</p>
+			<p class="preco">R$ 59,99</p>
+			<a href="#" onclick="funcao2();" class="botao">COMPRAR</a>
+		</div>
+	</div>
+		<div class=" colunaD coluna3">
+		<div class=" coluna coluna6">
+			<img src="img/shirt-2.jpg">
+			<p class="nome">CAMISA POLO LARANJA</p>
+			<p class="preco">R$ 79,99</p>
+			<a href="#" onclick="funcao2();" class="botao">COMPRAR</a>
+		</div>
+	</div>
+
+	</div>
+	</div>
+	</section>
+
+	<div class="linhaproduto">
+		<div class="coluna coluna12">
+			<p class="numeros">
+				<a href="mobileCamisetas.html">
+					<</a> <a href="mobileCamisetas.html">1
+				</a>
+				<a href="mobileCamisetas.html">2</a>
+				<a href="mobileCamisetas.html">3</a>
+				<a href="mobileCamisetas.html">4</a>
+				<a href="mobileCamisetas.html">5</a>
+				<a href="mobileCamisetas.html">></a>
+			</p>
+
+		</div>
+	</div>
+
+	<footer class="normal">
+
+	</footer>
+
+	<script type="text/javascript" src="carrinho.js"></script>
+</body>
+
+</html>

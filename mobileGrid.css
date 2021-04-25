@@ -1,0 +1,540 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body{
+	font-family: Helvetica;
+	width: 100%;
+}
+
+
+.botaoMenu{
+	background-repeat: no-repeat;
+	background-size: 45px 18px;
+	background-position: 15px center;
+	text-indent: -9999px;
+	padding: 20px 15px;
+}
+.botaoMenu_open{
+	display: block;
+	background-image: url(img/menu.jpg);
+	width: 10%;
+}
+
+.botaoMenu_close{
+	background-color: #DC143C;
+	background-image: url(img/menu.jpg);
+	
+}
+
+.menu-item-action{
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.menu{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+	transform: translateX(-100%);
+	transition: transform 200ms linear;
+}
+
+.menu-item{
+	border-bottom: 1px solid #D3D3D3; 
+	padding: 20px 15px;
+	background-color: #DC143C;
+}
+
+.menu_open{
+	transform: translateX(0);
+}
+
+
+a:link{
+	text-decoration: none;
+}
+
+#preto{
+	background: black;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	height: 20px;
+}
+
+a.acessecadastre{
+	text-decoration: underline;
+}
+
+.acessecadastre{
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#branco{
+	color: white;
+	font-size: 10px;
+	padding-left: 100px;
+	display: inline;
+}
+
+#pginicial{
+	color: black;
+}
+
+#pgatual{
+	color: #DC143C;
+}
+
+#pgtam{
+	font-size: 15px;
+	margin-top: 5px;
+}
+
+.cores{
+	display: flex;
+	
+	height: 25px;
+}
+
+#cor1{
+	background-color: #DC143C;
+	margin-right: 5px;
+}
+section ul #cor1{
+	color: #DC143C;
+}
+#cor2{
+	background-color: rgb(255, 86, 8);
+	margin-right: 5px;
+}
+section ul #cor2{
+	color: rgb(255, 86, 8);
+}
+#cor3{
+	background-color: #80ccc6;
+	margin-right: 5px;
+}
+section ul #cor3{
+	color: #80ccc6;
+}
+
+#aside{
+	border-style: solid;
+	border-color: #D3D3D3;
+	border-width: 1px;
+	margin-left: 40px;
+	height: 380px;
+	width: 220px;
+	padding-left: 10px;
+	margin-top: 20px;
+	padding-top: 10px;
+}
+
+#filtrepor{
+	color: #DC143C;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.azul{
+	color: #80ccc6;
+	font-weight: bold;
+	font-size: 15px;
+	padding-top: 15px;
+}
+
+.pad{
+	padding: 0;
+	margin-bottom: 5px;
+}
+
+
+section ul {
+	padding-left: 18px;
+	color: grey;
+	margin-top: 5px;
+	padding-top: 5px;
+}
+
+section ul li a{
+	color: grey;
+	font-size: 15px;
+}
+
+
+#nome-pag {
+	color: #DC143C;
+	font-size: 25px;
+	float:left;
+	margin-top: -20px;
+}
+
+.linhanopad{
+	width: 80%;
+	overflow: hidden;
+	padding: 30px;
+}
+
+.linhaproduto{
+	width: 80%;
+	margin: 0 auto;
+	padding: 5px 0;
+	overflow: hidden;
+	display: flex;
+}
+
+.coluna{
+	padding: 5px 10px;
+	float: left;
+}
+
+.coluna6{
+	width: 120px;
+	padding-right: 15px;
+}
+
+.coluna12{
+	width: 240px;
+}
+
+img{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #D3D3D3;
+	max-width: 100%;
+	height: 150px;
+}
+
+.nome{
+	color: grey;
+	font-size: 12px;
+	text-align: center;
+}
+
+.preco{
+	text-align: center;
+	color: #DC143C;
+	font-weight: bold;
+}
+
+
+.normal{
+	background: #DC143C;
+	width: 100%;
+	height: 90px;
+	overflow: hidden;
+}
+
+.hid{
+	display: none;
+}
+
+
+.coluna .numeros a{
+	padding-left: 10px;
+	color: grey;
+}
+.coluna .numeros a:first-child{
+	margin-left: 40px;
+	color: #80ccc6;
+}
+.coluna .numeros a:last-child{
+	color: #80ccc6;
+}
+
+.campo_nome{
+	display: none;
+}
+
+.botaobuscar{
+	display: none;
+}
+
+.linhanopad img{
+	display: none;
+}
+
+.linhanopad label{
+	padding-left: -23px;
+	width: 500px;
+	margin-left: -70px;
+}
+
+#ordenarporlabel{
+	margin-top: 27px;
+    margin-left: 70px;
+    margin-bottom: -12px;
+}
+
+a.botao{
+	display: none;
+}
+
+#ordenarporlabel{
+	font-size: 8px;
+	color: grey;
+}
+
+select{
+	border-style: solid;
+	border-color: #D3D3D3;
+	border-width: 1px;
+	border-radius: 3px;
+	width: 100%;
+	margin-left: 5px;
+}
+
+
+@media only screen and (min-width: 960px) {
+	
+	#branco{
+		padding-left: 1000px;
+		
+	}
+
+	.linhanopad{
+		width: 100%;
+	}
+
+	.linhanopad img{
+		display: block;
+		height: 20px;
+		max-width: 100%;
+		border: hidden;
+		padding-top: 5px;
+		padding-bottom: -35px;
+	}
+
+	.normal{
+		overflow: hidden;
+		margin-left: 180px;
+		width: 72%;
+	}
+
+	.hid{
+		display: block;
+	}
+	
+	.botaoMenu{
+		background-size: 0px 0px;
+	}
+	
+	.menu-item-action{
+		color:white;
+		
+	}
+	
+	.menu{
+		background: #DC143C;
+		height: 30px;
+		margin-top: 110px;
+		padding: 8px 0;
+		padding-bottom: 0;
+		transform: none;
+		transition: none;
+	}
+	
+	ul.menu li{
+		display: inline;
+	}
+	ul.menu li:first-child{
+		display: none;
+	}
+	
+	.menu-item{
+		border-bottom:none; 
+		padding: 8px 0px;
+		margin-left: 180px;
+		margin-right: -100px;
+		
+	}
+	
+	.botaoMenu_open{
+		width: 0;
+		height: 0;
+	}
+
+	nav{
+		height: 140px;
+	}
+	
+	
+
+	#pgtam{
+		font-size: 12px;
+		margin-left: 170px;
+	}
+	
+	
+
+	.desktop{
+		width: 960px;
+		margin: 0 auto;
+		overflow: hidden;
+		padding: 5px 0;
+		display: flex;
+		
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+	}
+	.colunaD{
+		padding: 0 10px;
+		float: left;
+	}
+
+	.coluna12{
+		width: 940px;
+	}
+
+	#aside{
+		margin-left: 180px;
+	}
+
+	.coluna6{
+		display: flex;
+		padding-right: 0;
+		width: 130px;
+	}
+	.coluna9{
+		width: 900px;
+	}
+	.coluna3{
+		width: 160px ;
+	}
+	.linhaD{
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 0;
+	}
+	
+	.linhaproduto{
+		overflow:visible;
+		display: inline-grid;
+		padding: 0 0;
+	}
+	
+	
+
+	.linhaprodutoD{
+		width: 80%;
+		margin: 0 auto;
+		padding: 5px 0;
+		overflow: hidden;
+		display: flex;
+	}
+
+	section{
+		display: flex;
+		overflow: hidden;
+	}
+
+
+	.coluna .numeros a:first-child{
+		margin-left: 540px;
+	}
+
+	.campo_nome{
+		display: block;
+		width: 250px;
+		height: 20px;
+		padding-left: 5px;
+		padding-top: 10px;
+		margin-left: 800px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border-style: solid;
+		border-color: #D3D3D3;
+		border-width: 1px;
+	}
+	
+	.botaobuscar{
+		display: block;
+		width: 70px;
+		height: 20px;
+		background: #DC143C;
+		padding: 5px 5px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 137px;
+	}
+	
+	a.botaobuscar{
+		cursor: pointer;
+		display: inline-block;
+		border: none;
+		color: white;
+		font-weight: bold;
+		font-size: 10px;
+		display: flex;
+		justify-content: center;
+		   align-items: center;
+	}
+
+	#linha-horizontal {
+		width: 690px;
+		border: thin solid #D3D3D3;
+		margin-top: 30px;
+	}
+	
+	.linhanopad label{
+		margin-left: 380px;
+	}
+
+	#ordenarporlabel{
+		margin-top: -20px;
+	}
+
+	select{
+		width: 18%;
+	}
+
+
+	a.botao{
+		width: 130px;
+		height: 20px;
+		background: #80ccc6;
+		padding: 5px 10px;
+		border-radius: 3px;
+		cursor: pointer;
+		display: inline-block;
+		border: none;
+		color: white;
+		font-weight: bold;
+		font-size: 12px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: 30px;
+	}
+	
+	a.botao:hover{
+		background: #a2d9d4;
+	}
+
+	.coluna9 .linhaproduto{
+		margin-left: 0px;
+	}
+
+	.coluna9 .linhanopad{
+		margin-left: -20px;
+	}
+
+	.nome{
+		margin-left: 30px;
+	}
+	.preco{
+		margin-left: 30px;
+	}
+	
+	
+}
